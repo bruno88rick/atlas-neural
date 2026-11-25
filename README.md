@@ -2,6 +2,10 @@
 
 App nativo em SwiftUI e Swift Charts para estudar e apresentar conceitos de inteligência artificial em português. O conteúdo didático e as cinco simulações funcionam offline. Progresso e lições salvas ficam no próprio dispositivo.
 
+## Versão web
+
+Abra [web/index.html](web/index.html) no navegador após baixar ou clonar o repositório. A versão web usa HTML, CSS e JavaScript, sem instalação de dependências. O progresso e as lições salvas ficam no navegador.
+
 ## Executar
 
 1. No Mac, descompacte o arquivo e abra `NeuralAtlas.xcodeproj` no Xcode 16 ou mais recente.

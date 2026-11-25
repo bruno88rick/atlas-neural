@@ -1,0 +1,233 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+/* Begin PBXBuildFile section */
+		E071E097C0A95389836ECCBD /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A32A0AD245DDC9DE0B2B5 /* Catalog.swift */; };
+		B4BA96A0075B591DB0E71263 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AF379BE41C5B14A612033C /* Design.swift */; };
+		599ED3A104E359798AA75023 /* LabPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F655FE4749593CB34BD989 /* LabPages.swift */; };
+		BADD730D11665838B16B7BBC /* Learning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255B42949AA75A72A3A46D7B /* Learning.swift */; };
+		92D03FCAD1EE5F608D8C4152 /* LessonPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6662AE12587D57179F0B68FD /* LessonPages.swift */; };
+		A7C60FFF450252A190F786E3 /* LibraryPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2221C83448548288763D0C /* LibraryPages.swift */; };
+		D106A96E99FF5A9CBA6B2A4F /* NeuralAtlasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C736F081E6275FDBBE6121BF /* NeuralAtlasApp.swift */; };
+		55A1CB0C544D5A78A99F0A19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE48EC8E53755AD9C68135B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D54A32A0AD245DDC9DE0B2B5 /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		C0AF379BE41C5B14A612033C /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		08F655FE4749593CB34BD989 /* LabPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabPages.swift; sourceTree = "<group>"; };
+		255B42949AA75A72A3A46D7B /* Learning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning.swift; sourceTree = "<group>"; };
+		6662AE12587D57179F0B68FD /* LessonPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonPages.swift; sourceTree = "<group>"; };
+		EA2221C83448548288763D0C /* LibraryPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryPages.swift; sourceTree = "<group>"; };
+		C736F081E6275FDBBE6121BF /* NeuralAtlasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralAtlasApp.swift; sourceTree = "<group>"; };
+		0FE48EC8E53755AD9C68135B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CE3F33391D05071B5937915 /* Atlas Neural.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Atlas Neural.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC34617349A53108616A962 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0589B40ABCF513E8D463B49 = {
+            isa = PBXGroup;
+            children = (
+				47B0DF5894F557C59C32550B,
+				C3024B85A5225D4F98379CDC,
+            );
+            
+            sourceTree = "<group>";
+        };
+		47B0DF5894F557C59C32550B = {
+            isa = PBXGroup;
+            children = (
+				D54A32A0AD245DDC9DE0B2B5,
+				C0AF379BE41C5B14A612033C,
+				08F655FE4749593CB34BD989,
+				255B42949AA75A72A3A46D7B,
+				6662AE12587D57179F0B68FD,
+				EA2221C83448548288763D0C,
+				C736F081E6275FDBBE6121BF,
+				0FE48EC8E53755AD9C68135B,
+            );
+            path = NeuralAtlas;
+            sourceTree = "<group>";
+        };
+		C3024B85A5225D4F98379CDC = {
+            isa = PBXGroup;
+            children = (
+				6CE3F33391D05071B5937915,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50AB8BF7872759CB864B30D4 /* Atlas Neural */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 4C9B91A3C5BB5FDEB32A254D;
+            buildPhases = (E8ED4D31D51552A98D1E0DAC, DDC34617349A53108616A962, 67FA03C1ACA656DB9D1F39D4);
+            buildRules = ();
+            dependencies = ();
+            name = "Atlas Neural";
+            productName = "Atlas Neural";
+            productReference = 6CE3F33391D05071B5937915;
+            productType = "com.apple.product-type.application";
+        };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9907791B51C75A00B43C1761 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                BuildIndependentTargetsInParallel = 1;
+                LastSwiftUpdateCheck = 1600;
+                LastUpgradeCheck = 1600;
+                TargetAttributes = { 50AB8BF7872759CB864B30D4 = { CreatedOnToolsVersion = 16.0; }; };
+            };
+            buildConfigurationList = EB5466D8CA845EE0B7B62364;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = "pt-BR";
+            hasScannedForEncodings = 0;
+            knownRegions = ("pt-BR", en, Base);
+            mainGroup = C0589B40ABCF513E8D463B49;
+            productRefGroup = C3024B85A5225D4F98379CDC;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (50AB8BF7872759CB864B30D4);
+        };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67FA03C1ACA656DB9D1F39D4 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+				55A1CB0C544D5A78A99F0A19 /* Assets.xcassets */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8ED4D31D51552A98D1E0DAC /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+				E071E097C0A95389836ECCBD /* Catalog.swift */,
+				B4BA96A0075B591DB0E71263 /* Design.swift */,
+				599ED3A104E359798AA75023 /* LabPages.swift */,
+				BADD730D11665838B16B7BBC /* Learning.swift */,
+				92D03FCAD1EE5F608D8C4152 /* LessonPages.swift */,
+				A7C60FFF450252A190F786E3 /* LibraryPages.swift */,
+				D106A96E99FF5A9CBA6B2A4F /* NeuralAtlasApp.swift */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0DE201A849935830899FFF43 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = auto;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+            };
+            name = Debug;
+        };
+		0519FA9FC1FA51518DABF694 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = auto;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+            };
+            name = Release;
+        };
+		CBD84E30C2EB5FB688EF616E /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"ENABLE_APP_SANDBOX[sdk=macosx*]" = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Atlas Neural";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.atlasneural.education;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+		6BA041A4D6BD5DEAB844A211 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"ENABLE_APP_SANDBOX[sdk=macosx*]" = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Atlas Neural";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.atlasneural.education;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB5466D8CA845EE0B7B62364 = {
+            isa = XCConfigurationList;
+            buildConfigurations = (0DE201A849935830899FFF43, 0519FA9FC1FA51518DABF694);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+		4C9B91A3C5BB5FDEB32A254D = {
+            isa = XCConfigurationList;
+            buildConfigurations = (CBD84E30C2EB5FB688EF616E, 6BA041A4D6BD5DEAB844A211);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+    };
+    rootObject = 9907791B51C75A00B43C1761 /* Project object */;
+}
